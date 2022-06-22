@@ -1,0 +1,30 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  padding: var(--spacing-medium);
+  background-color: var(--color-medium);
+}
+.header__text {
+  font-size: var(--spacing-large);
+}
+.header__cart {
+  display: flex;
+  align-items: center;
+}
+.header__img {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+.header__count {
+  margin-bottom: 16px;
+  color: red;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-hidden {
+  visibility: hidden;
+}

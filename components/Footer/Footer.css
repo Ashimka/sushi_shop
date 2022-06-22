@@ -1,0 +1,9 @@
+.footer-container {
+  min-height: 50px;
+  padding: 10px 0;
+  background-color: #6fa5c8;
+}
+.footer-title {
+  font-weight: 700;
+  text-align: center;
+}
